@@ -1,0 +1,193 @@
+@media only screen and (max-width:1800px) {
+    .header .logo-2 {
+        width: 100px;
+        left:-145px;
+    }
+}
+@media only screen and (max-width:1540px) {
+    body {
+        background:#d7eefa;
+    }
+    .header .logo-2 {
+        display: none;
+    }
+    .wrapper {
+        padding-left: 10px;
+    }
+    .page-title {
+        margin:0 -10px 46px;
+        width: auto;
+    }
+	.arch-posts {
+		width: auto;
+		padding: 24px 10px;
+		margin: 0 -10px;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.collection-description .thumbs li {
+		width: 30%;
+		margin-right:3.3%;
+	}
+}
+
+@media only screen and (max-width:999px) {
+	.form-logo .blue-logo-big p br {
+		display: none;
+	}
+	.collection-description .thumbs li {
+		width: 44%;
+		margin-right:6%;
+	}
+}
+@media only screen and (max-width:768px) {
+    .three-boxes.display_flex {
+        display: block;
+    }
+    .three-boxes.display_flex .box {
+        margin: 0 auto 34px;
+    }
+    .header {
+        height: auto;
+    }
+    .header nav {
+        height: auto;
+        padding-bottom: 22px;
+        text-align: center;
+        width: 580px;
+    }
+    nav .logo {
+        padding-bottom: 12px;
+        left:0;
+    }
+    nav ul {
+        position: static;
+        display: inline;
+        text-align: center;
+    }
+    nav ul.menu-left li,
+    nav ul.menu-right li {
+        padding: 0 12px;
+    }
+    .top-collection .img-box {
+        float: none;
+        padding: 0 0 32px;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 268px;
+    }
+    .top-collection .tc-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .top-collection .tc-text br {
+        display: none;
+    }
+	.posts-ul {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.form-logo {
+		display: block;
+		padding: 0 5% 42px;
+	}
+	.form-logo .form {
+		width: 100%;
+		display: block;
+	}
+	.form-logo .form.forimg {
+		display: none;
+	}
+	.form-logo .blue-logo-big {
+		display: none;
+	}
+	.form-logo .blue-logo-big.fortext {
+		display: block;
+		width: 100%;
+	}
+	.collection-content .big-img {
+		display: none;
+	}
+	.collection-description {
+		margin-left: 0;
+	}
+	.collection-description .thumbs li {
+		width: 44%;
+		margin: 0 3% 26px;
+	}
+	.collection-description p {
+		text-align: center;
+	}
+	.collection-description p br {
+		display: none;
+	}
+}
+@media only screen and (max-width:767px) {
+	.other-collections ul {
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+		line-height: 0;
+		letter-spacing: -1px;
+		display: block;
+	}
+	.other-collections ul li {
+		display: inline-block;
+		letter-spacing: 0;
+		width: 50%;
+		vertical-align: top;
+		max-width: 48%;
+		padding: 0 1% 32px;
+	}
+}
+@media only screen and (max-width:599px) {
+    .header nav {
+        width: auto;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul.menu-left {
+        padding-bottom: 12px;
+    }
+    .footer .footer-right {
+        padding-bottom: 22px;
+    }
+	.posts-ul .post-text {
+		width: 100%;
+		padding-right: 0;
+	}
+	.posts-ul .post-item:nth-child(even) .img-box,
+	.posts-ul .img-box {
+		width: 100%;
+		padding-right: 0;
+		text-align: center;
+	}
+	.arch-posts {
+		text-align: center;
+	}
+	.arch-posts a {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width:480px) {
+	.collection-description .thumbs li {
+		width: 100%;
+		margin: 0 0 25px;
+	}
+}
+@media only screen and (max-width:479px) {
+    .content p {
+        text-align: center;
+    }
+	.other-collections ul li {
+		width: 98%;
+		max-width: 98%;
+	}
+}
+@media only screen and (max-width:430px) {
+    .three-boxes .box {
+        width: auto;
+    }
+}
